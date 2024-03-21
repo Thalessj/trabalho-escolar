@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:ital,wght@1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+  }
+  
+  body{
+    background-color: black;
+  }
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover{
+    color: #454545;
+    transition: 0.5s;
+  }  
+
+.Ideia a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ideia a:hover{
+    color: #454545;
+}
+
+.ideia h1 a:hover{
+    transition: 1s;
+    transform: rotateX(360deg);
+    color: #3e3e3e;
+}
+
+aside{
+ opacity: 0%;
+}
+
